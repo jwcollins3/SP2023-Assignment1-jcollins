@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: cornsilk;
+    color: red;
+
+}
+
+#Title {
+    text-align: center;
+    border: 3px;
+}
+
+#Summary {
+    text-align: center;
+}
+
+#Rating {
+    text-align: center;
+}
+
+#Actors {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#Trailer {
+    display: block;
+    margin: auto;
+}
+
+#Link {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
